@@ -1,0 +1,17 @@
+.{
+    .name = .jackgraphd,
+    .version = "0.0.0",
+    .fingerprint = 0x1ff1e6fa9d40261f, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.16.0-dev.1507+fbafbd426",
+    .dependencies = .{
+        .goose = .{
+            .url = "git+https://github.com/luxluth/goose.git#3ccc8fb97c0b933a14297503276a251304ae8b9f",
+            .hash = "goose-0.2.0-e9MzMFaTAgB0lewMJFmlRZXNJPNZzS4Vt5_h_8xB74v3",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
